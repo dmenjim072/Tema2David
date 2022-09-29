@@ -6,7 +6,7 @@ package apuntes;
 
 /**
  *
- * @author smr1d
+ * @author smr1da
  */
 public class Apuntes {
     

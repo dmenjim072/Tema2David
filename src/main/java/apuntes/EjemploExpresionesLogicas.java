@@ -57,7 +57,7 @@ public static void main(String[] args) {
     
     //b. El peso es mayor que 50kg o menor o igual que 100kg
     boolean b = peso>50||peso<=100;
-    System.out.println("¿El peso esta entre 50 y 100?" + b);
+    System.out.println("¿El peso esta entre 50 y 100*?" + b);
     
     //c. No mide 175cm
     boolean c = estatura!=175;
@@ -73,7 +73,8 @@ public static void main(String[] args) {
     
     //f. El nombres es igual a "Pablo", ignorando mayusculas y
     //minusculas. Usa equalsIgnoreCase de los String
-    System.out.println(nombre.equalsIgnoreCase("Pablo"));
+    boolean f = (nombre.equalsIgnoreCase("Pablo"));
+    System.out.println("¿Es el nombre igual a Pablo?" + f);
     
     //g. El apellido contiene la letra "j". usa contains de los string
     boolean g = apellido.contains("j");

@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author smr1d
  */
-public class Ej14 {
+public class Ej08 {
     
     public static void main(String[] args) {
         int tiempoSegundos;

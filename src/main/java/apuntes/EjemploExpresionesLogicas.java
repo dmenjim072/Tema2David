@@ -6,6 +6,7 @@ package apuntes;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 import jdk.dynalink.NamespaceOperation;
 
 /**
@@ -45,9 +46,28 @@ public static void main(String[] args) {
     System.out.println("Introduce tu nombre ");
     nombre = teclado.nextLine();
     System.out.println("Tu nombre es: " + nombre);
-    System.out.println("Introduce tu apellido");
-    apellido = teclado.nextLine();
-    System.out.println("Tu apellido es: " + apellido);
+    
+    
+    
+    // Lectura de datos con JOption EJEMPLO
+    apellido = JOptionPane.showInputDialog("Introduce tu apellido: ");
+    // System.out.println("El apellido es: " + apellido);
+    JOptionPane.showMessageDialog(null, "Tu apellido es: " + apellido);
+    
+    //peso - double
+    String pesoString = JOptionPane.showInputDialog("Introduce el peso ");
+    
+    peso = Double.parseDouble(pesoString); //Transforma el String en double
+    peso+=10;
+    JOptionPane.showMessageDialog(null, "Tu peso es:" + peso);
+    
+    
+    // estatura - int
+    String estaturaString = JOptionPane.showInputDialog("Introduce la estatura ");
+    
+    estatura = Integer.parseInt(estaturaString); //Transforma el String en double
+    peso+=10;
+    JOptionPane.showMessageDialog(null, "Tu estatura es:" + estatura);
     
     //Guardar en variables booleanas
     

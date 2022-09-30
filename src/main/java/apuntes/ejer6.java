@@ -8,7 +8,7 @@ package apuntes;
  *
  * @author smr1d
  */
-public class ejer8 {
+public class ejer6 {
     
     public static void main(String[] args) {
         

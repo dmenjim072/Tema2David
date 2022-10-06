@@ -53,6 +53,7 @@ public static void main(String[] args) {
     apellido = JOptionPane.showInputDialog("Introduce tu apellido: ");
     // System.out.println("El apellido es: " + apellido);
     JOptionPane.showMessageDialog(null, "Tu apellido es: " + apellido);
+  
     
     //peso - double
     String pesoString = JOptionPane.showInputDialog("Introduce el peso ");

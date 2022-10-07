@@ -21,11 +21,15 @@ public class Ejercicio5 {
         int profesoresNecesarios;
          
         String horasString = JOptionPane.showInputDialog("Introduce las horas que va a trabajar el profesor");
-                 
         horasImpartidas = Integer.parseInt(horasString);
         
+        String numeroGruposString = JOptionPane.showInputDialog("Introduce el numero de grupos");
+        numeroGrupos = Integer.parseInt(numeroGruposString);
         
         
+        int numeroProfesores = (HORASCLASE * numeroGrupos) / horasImpartidas;
+        
+        JOptionPane.showMessageDialog(null, "Se necesitan" + numeroProfesores + " profesores");
               
          
     }

@@ -16,6 +16,7 @@ public class Ejercicio6 {
         
         //Calcular el porcentaje de inversion de cada uno
     
+        // Declaramos las variables
          double inversion1;
          double inversion2;
          double inversion3;
@@ -27,7 +28,7 @@ public class Ejercicio6 {
          double sumaTotal;
          
          
-         
+       // Con JOption pedimos los valores de las inversiones de cada uno  
         String inversion1String = JOptionPane.showInputDialog("Introduce la primera inversion");
                  
         inversion1 = Double.parseDouble(inversion1String);
@@ -41,16 +42,16 @@ public class Ejercicio6 {
         inversion3 = Double.parseDouble(inversion3String);
         
         //Procesos
+        sumaTotal = inversion1 + inversion2 + inversion3;   
+     
         porcentaje1 = (inversion1 * 100) / sumaTotal;
         porcentaje2 = (inversion2 * 100) / sumaTotal;
         porcentaje3 = (inversion3 * 100) / sumaTotal;
                      
-        
-        sumaTotal = inversion1 + inversion2 + inversion3;   
-        
-        
+      
         //Mostramos resultados
-        JOptionPane.showMessageDialog(null, "La primera inversion es " + porcentaje1 + "La segunda inversion es" + porcentaje2 + "La tercera inversion es" + porcentaje3);
+        JOptionPane.showMessageDialog(null, "La primera inversion es " + porcentaje1 
+        + "La segunda inversion es" + porcentaje2 + "La tercera inversion es" + porcentaje3);
     }
     
 }

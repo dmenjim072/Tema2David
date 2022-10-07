@@ -26,9 +26,9 @@ public class Ejercicio8 {
         System.out.println("Presupuesto total");
         double presupuesto = teclado.nextDouble();
         
-        presupuestoGinecologia = GINECOLOGIA * presupuesto;
-        presupuestoTraumatologia = TRAUMATOLOGIA * presupuesto;
-        presupuestoPediatria = PEDIATRIA * presupuesto;
+        double presupuestoGinecologia = GINECOLOGIA * presupuesto;
+        double presupuestoTraumatologia = TRAUMATOLOGIA * presupuesto;
+        double presupuestoPediatria = PEDIATRIA * presupuesto;
         
         System.out.println("""
                            Con un presupuesto de %.2f €

@@ -19,11 +19,14 @@ public class Ejercicio7 {
          double euros;
          double dolares;
          
-         JOptionPane.showInputDialog("Introduce la cantidad en euros");
+         //!!Pedimos ESA variable en pantalla
+         String eurosString = JOptionPane.showInputDialog("Introduce la cantidad en euros");
+         
+         euros = Double.parseDouble(eurosString);
          
          dolares = euros * 0.98;
          
          JOptionPane.showMessageDialog(null, "Tu cantidad en dolares es: " + dolares);
-}
+    }
     
 }
